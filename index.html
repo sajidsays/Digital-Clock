@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Digital Clock</title>
+    <script src="./app.js" defer></script>
+    <style>
+        .container {
+            height: 90vh;
+            background-color: rgb(74, 61, 247);
+            color: white;
+            border: 20px solid rgb(88, 86, 87);
+        }
+        .subContainer1{
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            font-size: 50px;
+            text-decoration: underline;
+        }
+        .subContainer2{
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            font-size: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+    <div class="subContainer1">
+        <h1 id="heading">Digital Clock</h1>
+    </div>
+    <div class="subContainer2">
+        <div id="hoursElement">10</div>
+        <div> : </div>
+        <div id="minutesElement">10</div>
+        <div> : </div>
+        <div id="secondsElement">10</div>
+        <div>&nbsp;</div>
+        <div id="amPm">AM</div>
+    </div>
+        
+    </div>
+</body>
+
+</html>
